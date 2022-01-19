@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="pageObjects.Listeners">
+
+        </listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="/Users/jaxethhugomahiya/IdeaProjects/E2EProject">
+        <classes>
+            <class name="Academy.AppTest">
+                <methods>
+                    <include name="shouldAnswerWithTrue"/>
+                </methods>
+            </class>
+            <class name="Academy.HomePage">
+                <methods>
+                    <include name="basePageNavigation"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
